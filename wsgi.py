@@ -34,5 +34,5 @@ app.css.append_css({"external_url":
 "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
 if __name__ == '__main__':
-    app.run_server(app, "0.0.0.0", 8080, debug = true)
+    app.run_server(port=8080, debug = true)
 
